@@ -10,4 +10,69 @@ html {
 
 body {
   margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.header {
+  padding: 3em 5em 0 5em;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-img-container {
+  background: url("./assets/tablet/image-hero.png");
+  background-size: contain;
+  width: 433px;
+  height: 160px;
+}
+
+.hero-content {
+  padding: 2em 2em 2em 2em;
+}
+
+.hero-heading,
+.main-content-heading {
+  color: #28283d;
+}
+
+.hero-heading {
+  font-size: 2.75rem;
+  font-weight: 900;
+  line-height: 110%;
+  max-width: 19rem;
+}
+
+.hero-p {
+  color: #87879d;
+  line-height: 150%;
+  font-weight: 600;
+  margin: 1.5em 0;
+}
+
+.download-btn,
+.info-btn {
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 29px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.download-btn-blue {
+  background: #4d96a9;
+}
+
+.version-number-blue {
+  color: #8fe3f9;
+}
+
+.info-btn {
+  background: #855fb1;
+  margin-top: 1em;
 }
